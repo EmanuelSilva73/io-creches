@@ -1,0 +1,23 @@
+/* Vuetify 4 removeu o reset global de margens; restaura o básico */
+@layer vuetify-core.reset {
+  ul,
+  ol,
+  figure {
+    padding: 0;
+    margin: 0;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin: 0;
+  }
+}
+
+html {
+  overflow-y: auto;
+}
